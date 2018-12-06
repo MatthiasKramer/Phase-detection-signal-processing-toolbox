@@ -34,7 +34,7 @@ The code was written in Matlab R2017a. The folder contains source code files and
 2 Processing parameters
 ------------------------
 
-Important processing paramters include:
+Important processing paramters of the AWCCT are:
 - Np (line 29): number of encompassed particles of the dispersed phase. For example, a window with 
 Np = 2 particles contains two water chords and two air chords, compare Fig. 1 in Kramer et al. (2019).
 - Rxymaxthres (line 30): threshold of the maximum cross-correlation coefficient. A value between 0.5 to 0.7 is recommended, as indicated in Matos et al. (2002, [DOI](https://doi.org/10.1061/40655(2002)58)) and André et al. (2003, [DOI](https://doi.org/10.1061/(ASCE)0733-9429(2005)131:5(423))). 
