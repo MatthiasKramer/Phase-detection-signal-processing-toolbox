@@ -36,7 +36,7 @@ N<sub>P</sub> = 2 particles contains two water chords and two air chords, compar
 
 3 How to run the code?
 ----------------------
-Simply copy all files (spillway daata + Matlab source code) in the same folder and run the 
+Simply copy the *.dat files and the source code files in the same folder and run the "RunAWCCT.m" file.
 
 4 Contact
 ----------
