@@ -9,7 +9,7 @@ The code was developed by Matthias Kramer (UNSW Canberra, [ORCID](https://orcid.
 - Estimation of pseudo-instantaneous interfacial velocities and turbulence intensities.
 - Implemented filtering criteria ensure reliable velocity estimates.
 
-Overall, the AWCCT allows computation of basic two-phase flow parameters, including void fraction (C), bubble/droplet count rate (F), instantaneous interfacial velocities (u) and turbulence intensities (Tu). If using the AWCCT for publishing research, please cite the following reference to credit the authors and to direct your readers to the original  research work:
+Overall, the uploaded source code allows computation of basic two-phase flow parameters, including void fraction (C), bubble/droplet count rate (F), instantaneous interfacial velocities (u) and turbulence intensities (Tu). If using the AWCCT for publishing research, please cite the following reference to credit the authors and to direct your readers to the original  research work:
 
 M. Kramer, D. Valero, H. Chanson and D. Bung (2019). Towards reliable turbulence estimations with phase-detection probes: an adaptive window cross-correlation technique, Experiments in Fluids, 60:2 ([DOI](https://doi.org/10.1007/s00348-018-2650-9))
 
