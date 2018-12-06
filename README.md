@@ -7,7 +7,7 @@ The code was developed by Matthias Kramer (UNSW Canberra, [ORCID](https://orcid.
 - Single-threshold technique to detect air- and water-phases.
 - Segmentation of the signal based on a small number of encompassed bubbles/droplets.
 - Estimation of pseudo-instantaneous interfacial velocities and turbulence intensities.
-- Implementation of filtering criteria to ensure reliable velocity estimates.
+- Implemented filtering criteria ensure reliable velocity estimates.
 
 Overall, the code computes basic two-phase flow parameters, including void fraction (C), bubble/droplet count rate (F), instantaneous interfacial velocities (u) and turbulence intensities (Tu). If using the AWCCT for publishing research, please cite the following reference to credit the authors and to direct your readers to the original  research work:
 
