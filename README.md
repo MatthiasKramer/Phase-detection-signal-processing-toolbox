@@ -18,7 +18,7 @@ M. Kramer, D. Valero, H. Chanson and D. Bung (2019). Towards reliable turbulence
 ----------
 
 The code was written in Matlab R2017a. The folder contains the listed files:
-- RunAWCCT.m: main code to run the Adaptive Window Cross-Correlation Technique.
+- RunAWCCT.m: main code to run the AWCCT.
 - windows.m: segmentation of the signal into short time windows.
 - velocity.m: computation of pseudo-instantaneous velocities.
 - thres.m: single threshold technique.
