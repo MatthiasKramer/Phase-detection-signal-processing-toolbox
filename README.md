@@ -34,7 +34,11 @@ N<sub>P</sub> = 2 particles contains two water chords and two air chords, compar
 - **R<sub>12,max</sub>**: threshold of the maximum cross-correlation coefficient. A value between R<sub>xy,max</sub> = 0.5 to 0.7 is recommended, compare Matos et al. (2002, [DOI](https://doi.org/10.1061/40655(2002)58)) and André et al. (2003, [DOI](https://doi.org/10.1061/(ASCE)0733-9429(2005)131:5(423))). 
 - **SPR**: threshold of the secondary peak ratio, as defined in Kramer et al. (2019). A value of SPR = 0.6 is proposed, similar to Keane and Adrian (1990, [DOI](https://doi.org/10.1088/0957-0233/1/11/013)) and Hain and Kähler (2007, [DOI](https://doi.org/10.1007/s00348-007-0266-6)).
 
-3 Contact
+3 How to run the code?
+----------------------
+Simply copy all files (spillway daata + Matlab source code) in the same folder and run the 
+
+4 Contact
 ----------
 Matthias Kramer, The University of Queensland, Brisbane, Australia. Mail: m.kramer@uq.edu.au, [ORCID](https://orcid.org/0000-0001-5673-2751)
 
