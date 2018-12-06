@@ -40,7 +40,7 @@ Copy the source code and the *.dat files into the same folder and run "RunAWCCT.
 
 4 Contact
 ----------
-For **feedback**, **questions** and **recommendations**, feel free to contact us via Email.
+We are happy to receive **feedback**, **questions** and **recommendations**. Feel free to contact us via Email.
 
 Matthias Kramer, The University of Queensland, Brisbane, Australia. Mail: m.kramer@uq.edu.au, [ORCID](https://orcid.org/0000-0001-5673-2751)
 
