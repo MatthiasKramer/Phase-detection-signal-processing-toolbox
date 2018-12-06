@@ -22,7 +22,7 @@ The code is written in Matlab R2017a. This repository contains source code files
 - thres.m: single threshold technique.
 - ROC.m: robust outlier cutoff. Simplification of Goring and Nikora (2002, [DOI](https://doi.org/10.1061/(ASCE)0733-9429(2002)128:1(117))), as modified by Wahl (2003, [DOI](https://doi.org/10.1061/(ASCE)0733-9429(2003)129:6(484))). ROC only uses instantaneous velocity data (instead of gradients). Note that velocity series are sparse in time, thus gradients correspond to different dt. Further description in Valero (2018, [handle](https://orbi.uliege.be/handle/2268/229191)).
 - chord.m: evaluation of chord times.
-- *.dat: phase-detection probe data, measured at the eighth step edge of a large-sized stepped spillway, see Kramer et al. (2019, [DOI](https://doi.org/10.1007/s00348-018-2650-9)).
+- *.dat: phase-detection probe data, measured at the eighth step edge of a large-sized stepped spillway, see Kramer et al. (2019).
 
 
 2 Processing parameters
@@ -30,7 +30,7 @@ The code is written in Matlab R2017a. This repository contains source code files
 
 Important processing paramters of the AWCCT are:
 - **N<sub>P</sub>**: number of encompassed particles of the dispersed phase. For example, a window with 
-N<sub>P</sub> = 2 particles contains two water chords and two air chords, compare Fig. 1 in Kramer et al. (2019, [DOI](https://doi.org/10.1007/s00348-018-2650-9)). A value between N<sub>P</sub>  = 2 and 5 was used for synthetic and real two-phase flow signals. 
+N<sub>P</sub> = 2 particles contains two water chords and two air chords, compare Fig. 1 in Kramer et al. (2019). A value between N<sub>P</sub>  = 2 and 5 was used for synthetic and real two-phase flow signals. 
 - **R<sub>12,max</sub>**: threshold of the maximum cross-correlation coefficient. A value between R<sub>xy,max</sub> = 0.5 to 0.7 is recommended, compare Matos et al. (2002, [DOI](https://doi.org/10.1061/40655(2002)58)) and André et al. (2003, [DOI](https://doi.org/10.1061/(ASCE)0733-9429(2005)131:5(423))). 
 - **SPR**: threshold of the secondary peak ratio, as defined in Kramer et al. (2019). A value of SPR = 0.6 is proposed, similar to Keane and Adrian (1990, [DOI](https://doi.org/10.1088/0957-0233/1/11/013)) and Hain and Kähler (2007, [DOI](https://doi.org/10.1007/s00348-007-0266-6)).
 
