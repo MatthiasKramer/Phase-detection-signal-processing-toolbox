@@ -1,4 +1,5 @@
 ADAPTIVE WINDOW CROSS-CORRELATION TECHNIQUE
+-------------------------------------------
 
 This folder contains Matlab source code files for processing phase-detection probe signals in high-velocity air-water flows. 
 The code was developed by Matthias Kramer (UNSW Canberra) and Daniel Valero (IHE Delft). It includes the following features:
