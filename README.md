@@ -24,7 +24,7 @@ Experiments in Fluids, 2019, 60:2
 %------------------------------------------------------------------------------------------------------------------------%
 
 
-The code was developed in Matlab R2017a. The folder contains the following files:
+The code was written in Matlab R2017a. The folder contains the following files:
 - RunAWCCT.m: main code to run the Adaptive Window Cross-Correlation Technique.
 - windows.m: segmentation of the signal into short time windows.
 - velocity.m: computation of pseudo-instantaneous velocities.
