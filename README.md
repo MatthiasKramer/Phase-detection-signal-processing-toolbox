@@ -2,7 +2,7 @@ Adaptive window cross-correlation technique (AWCCT)
 ===================================================
 
 The AWCCT is a novel processing technique for phase-detection probe signals in high-velocity air-water flows. 
-The code was developed by Matthias Kramer (The University of Queensland, [ORCID](https://orcid.org/0000-0001-5673-2751)) and Daniel Valero (IHE Delft, [ORCID](http://orcid.org/0000-0002-7127-7547)). It includes the following features:
+The code was developed by Matthias Kramer and Daniel Valero. It includes the following features:
 
 - Single-threshold technique to detect air- and water-phases.
 - Segmentation of the signal based on a small number of encompassed bubbles/droplets.
@@ -42,6 +42,6 @@ Np = 2 particles contains two water chords and two air chords, compare Fig. 1 in
 
 3 Contact
 ----------
-Matthias Kramer, School of Civil Engineering, The University of Queensland, Brisbane, Australia. Mail: m.kramer@uq.edu.au
+Matthias Kramer, School of Civil Engineering, The University of Queensland, Brisbane, Australia. [ORCID](https://orcid.org/0000-0001-5673-2751)), Mail: m.kramer@uq.edu.au
 
-Daniel Valero, IHE Delft Institute for Water Education, Delft, Netherlands.
+Daniel Valero, IHE Delft Institute for Water Education, Delft, Netherlands. [ORCID](http://orcid.org/0000-0002-7127-7547)).
