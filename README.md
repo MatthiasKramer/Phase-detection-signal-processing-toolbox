@@ -14,6 +14,7 @@ If using this code, please cite
 
 
 M. Kramer, D. Valero, H. Chanson and D. Bung (2019). Towards reliable turbulence estimations with phase-detection probes: an adaptive window cross-correlation technique, Experiments in Fluids, 60:2
+[![DOI](https://zenodo.org/badge/doi/10.5281/zenodo.1213240.svg)](http://dx.doi.org/10.5281/zenodo.1213240)
 [![DOI](https://doi.org/10.1007/s00348-018-2650-9)](http://dx.doi.org/10.5281/zenodo.1213240)
 
 
