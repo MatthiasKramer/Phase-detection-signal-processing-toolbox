@@ -1,4 +1,4 @@
-ADAPTIVE WINDOW CROSS-CORRELATION TECHNIQUE
+Adaptive window cross-correlation technique 
 ===========================================
 
 This folder contains Matlab source code files for processing phase-detection probe signals in high-velocity air-water flows. 
