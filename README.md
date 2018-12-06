@@ -36,6 +36,7 @@ The code was developed in Matlab R2017a. The folder contains the following files
 - legendflex: customize legends (from Matlab FileExchange).
 - setpos: part of the legendflex package.
 - getpos: part of the legendflex package. 
+- *.dat: phase-detection probe data, measured at the eight step edge of a large-sized stepped spillway, see Kramer et al. (2019).
 
 
 Important processing paramters include:
