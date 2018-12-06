@@ -1,6 +1,5 @@
 ADAPTIVE WINDOW CROSS-CORRELATION TECHNIQUE
-trackpy
-=======
+===========================================
 
 This folder contains Matlab source code files for processing phase-detection probe signals in high-velocity air-water flows. 
 The code was developed by Matthias Kramer (UNSW Canberra) and Daniel Valero (IHE Delft). It includes the following features:
@@ -13,7 +12,6 @@ The code was developed by Matthias Kramer (UNSW Canberra) and Daniel Valero (IHE
 
 If using this code, please cite
 
-%------------------------------------------------------------------------------------------------------------------------%
 
 M. Kramer, D. Valero, H. Chanson and D. Bung (2019)
 
@@ -21,7 +19,7 @@ Towards reliable turbulence estimations with phase-detection probes: an adaptive
 
 Experiments in Fluids, 2019, 60:2
 
-%------------------------------------------------------------------------------------------------------------------------%
+
 
 ------------
 1. Contents
@@ -41,6 +39,7 @@ The code was written in Matlab R2017a. The folder contains the listed files:
 - getpos: part of the legendflex package. 
 - *.dat: phase-detection probe data, measured at the eighth step edge of a large-sized stepped spillway, see Kramer et al. (2019).
 
+------------------------
 2. Processing parameters
 ------------------------
 
