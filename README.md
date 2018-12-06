@@ -10,7 +10,7 @@ The code was developed by Matthias Kramer (UNSW Canberra, [ORCID](https://orcid.
 - Filtering criteria ensure reliability.
 
 
-If using the AWCCT for published research, please cite the following reference to credit the contributors and to direct your readers to the exact version of trackpy they could use to reproduce your results.
+If using the AWCCT for published research, please cite the following reference to credit the authors and to direct your readers to the original  version of the  AWCCT:
 
 M. Kramer, D. Valero, H. Chanson and D. Bung (2019). Towards reliable turbulence estimations with phase-detection probes: an adaptive window cross-correlation technique, Experiments in Fluids, 60:2 ([DOI](https://doi.org/10.1007/s00348-018-2650-9))
 
