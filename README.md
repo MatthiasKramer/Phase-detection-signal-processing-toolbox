@@ -6,7 +6,7 @@ The AWCCT is a novel processing technique for **dual-tip phase-detection probe s
 - Single-threshold filter to detect air- and water-phases.
 - Segmentation of the signal based on a small number of encompassed bubbles/droplets.
 - Estimation of pseudo-instantaneous interfacial velocities and turbulence intensities.
-- Implemented filtering criteria ensure reliable velocity estimates.
+- Reliable velocity estimates through implemented filtering criteria.
 
 Overall, the uploaded source code allows computation of basic two-phase flow parameters, including void fraction (*C*), bubble/droplet count rate (*F*), chord times (*ch*), pseudo-instantaneous interfacial velocities (*u*) and turbulence intensities (*Tu*). If using the AWCCT for publishing research, please cite the following reference to credit the authors and to direct your readers to the original  research work:
 
