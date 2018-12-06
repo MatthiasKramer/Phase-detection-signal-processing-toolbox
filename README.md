@@ -23,10 +23,6 @@ The code is written in Matlab R2017a. The folder contains source code files and 
 - ROC.m: robust outlier cutoff.
 - GN2002.m: filtering after Goring and Nikora (2002, [DOI](https://doi.org/10.1061/(ASCE)0733-9429(2002)128:1(117))), as modified by Wahl (2003, [DOI](https://doi.org/10.1061/(ASCE)0733-9429(2003)129:6(484))). 
 - chord.m: evaluation of chord times.
-- tightsubplot: customize subplots (from Matlab FileExchange).
-- legendflex: customize legends (from Matlab FileExchange).
-- setpos: part of the legendflex package.
-- getpos: part of the legendflex package. 
 - *.dat: phase-detection probe data, measured at the eighth step edge of a large-sized stepped spillway, see Kramer et al. (2019).
 
 
