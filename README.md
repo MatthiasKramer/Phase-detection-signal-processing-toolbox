@@ -15,7 +15,7 @@ M. Kramer, D. Valero, H. Chanson and D. Bung (2019). Towards reliable turbulence
 1 Contents
 ----------
 
-The code is written in Matlab R2017a. The repository contains source code files and a represetative spillway data set:
+The code is written in Matlab R2017a. This repository contains source code files and a represetative spillway data set:
 - RunAWCCT.m: main code to run the AWCCT.
 - windows.m: segmentation of the signal into short time windows.
 - velocity.m: computation of pseudo-instantaneous velocities.
