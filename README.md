@@ -15,9 +15,8 @@ If using this code, please cite
 
 M. Kramer, D. Valero, H. Chanson and D. Bung (2019). Towards reliable turbulence estimations with phase-detection probes: an adaptive window cross-correlation technique, Experiments in Fluids, 60:2
 
-------------------------
-1. Contents
-------------------------
+1 Contents
+----------
 
 The code was written in Matlab R2017a. The folder contains the listed files:
 - RunAWCCT.m: main code to run the Adaptive Window Cross-Correlation Technique.
@@ -33,8 +32,8 @@ The code was written in Matlab R2017a. The folder contains the listed files:
 - getpos: part of the legendflex package. 
 - *.dat: phase-detection probe data, measured at the eighth step edge of a large-sized stepped spillway, see Kramer et al. (2019).
 
-------------------------
-2. Processing parameters
+
+2 Processing parameters
 ------------------------
 
 Important processing paramters include:
