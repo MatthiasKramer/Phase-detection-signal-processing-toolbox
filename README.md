@@ -5,9 +5,8 @@ The code was developed by Matthias Kramer (matthias_kramer@hotmail.com) and Dani
 
 - Novel technique for processing phase-detection probe signals in air-water flows.
 - Segmentation of the signal based on a small number of encompassed bubbles/droplets.
-- Filtering criteria ensure reliability.
 - Estimation of pseudo-instantaneous interfacial velocities and turbulence intensities.
-
+- Filtering criteria ensure reliability.
 
 
 If using this code, please cite
