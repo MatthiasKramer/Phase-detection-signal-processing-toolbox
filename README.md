@@ -24,7 +24,7 @@ The code was written in Matlab R2017a. The folder contains the listed files:
 - velocity.m: computation of pseudo-instantaneous velocities.
 - thres.m: single threshold technique.
 - ROC.m: robust outlier cutoff.
-- GN2002.m: filtering after Goring and Nikora (2002).
+- GN2002.m: filtering after Goring and Nikora (2002, [DOI](https://doi.org/10.1061/(ASCE)0733-9429(2002)128:1(117))).
 - chord.m: evaluation of chord times.
 - tightsubplot: customize subplots (from Matlab FileExchange).
 - legendflex: customize legends (from Matlab FileExchange).
