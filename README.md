@@ -1,6 +1,6 @@
 ADAPTIVE WINDOW CROSS-CORRELATION TECHNIQUE
 
-This folder contains Matlab source code for processing dual-tip phase-detection signals in high-velocity air-water flows. 
+This folder contains Matlab source code files for processing dual-tip phase-detection signals in high-velocity air-water flows. 
 The code was developed by Matthias Kramer (matthias_kramer@hotmail.com) and Daniel Valero (valero@fh-aachen.de).
 
 - Novel technique for processing phase-detection probe signals in air-water flows.
