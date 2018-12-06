@@ -43,4 +43,4 @@ Np = 2 particles contains two water chords and two air chords, compare Fig. 1 in
 ----------
 Matthias Kramer, The University of Queensland, Brisbane, Australia. Mail: m.kramer@uq.edu.au, [ORCID](https://orcid.org/0000-0001-5673-2751)
 
-Daniel Valero, IHE Delft Institute for Water Education, Delft, Netherlands. [ORCID](http://orcid.org/0000-0002-7127-7547)
+Daniel Valero, IHE Delft Institute for Water Education, Delft, Netherlands. Mail: davahue@gmail.com, [ORCID](http://orcid.org/0000-0002-7127-7547)
