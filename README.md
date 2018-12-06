@@ -7,7 +7,7 @@ The code was developed by Matthias Kramer (UNSW Canberra, [ORCID](https://orcid.
 - Novel technique for processing dual-tip phase-detection probe signals in air-water flows.
 - Segmentation of the signal based on a small number of encompassed bubbles/droplets.
 - Estimation of pseudo-instantaneous interfacial velocities and turbulence intensities.
-- Filtering criteria ensure reliability of the estimated velocities.
+- Filtering criteria ensure reliability of estimated velocities.
 
 
 If using the AWCCT for publishing research, please cite the following reference to credit the authors and to direct your readers to the original  research work:
