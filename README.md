@@ -13,7 +13,7 @@ The code was developed by Matthias Kramer (UNSW Canberra) and Daniel Valero (IHE
 If using this code, please cite
 
 
-M. Kramer, D. Valero, H. Chanson and D. Bung (2019). Towards reliable turbulence estimations with phase-detection probes: an adaptive window cross-correlation technique, Experiments in Fluids, 2019, 60:2
+M. Kramer, D. Valero, H. Chanson and D. Bung (2019). Towards reliable turbulence estimations with phase-detection probes: an adaptive window cross-correlation technique, Experiments in Fluids, 60:2
 
 ------------------------
 1. Contents
