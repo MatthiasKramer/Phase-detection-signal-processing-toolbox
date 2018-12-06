@@ -6,7 +6,7 @@ The code was developed by Matthias Kramer (matthias_kramer@hotmail.com) and Dani
 - Novel technique for processing phase-detection probe signals in air-water flows.
 - Segmentation of the signal based on a small number of encompassed bubbles/droplets.
 - Estimation of pseudo-instantaneous interfacial velocities and turbulence intensities.
-- Velocity spectra can be computed based on the velocity time series.
+- Velocity spectra can subsequently be computed based on velocity time series.
 
 
 If using this code, please cite
