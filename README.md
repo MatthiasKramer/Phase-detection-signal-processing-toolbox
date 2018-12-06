@@ -1,8 +1,7 @@
 Adaptive window cross-correlation technique (AWCCT)
 ===================================================
 
-The AWCCT is a novel processing technique for phase-detection probe signals in high-velocity air-water flows. 
-The code was developed by Matthias Kramer and Daniel Valero. It includes the following features:
+The AWCCT is a novel processing technique for phase-detection probe signals in high-velocity air-water flows, developed by Matthias Kramer and Daniel Valero. It includes the following features:
 
 - Single-threshold technique to detect air- and water-phases.
 - Segmentation of the signal based on a small number of encompassed bubbles/droplets.
