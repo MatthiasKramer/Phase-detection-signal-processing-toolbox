@@ -1,7 +1,7 @@
 Adaptive window cross-correlation technique (AWCCT)
 ===================================================
 
-This folder contains Matlab source code files for processing phase-detection probe signals in high-velocity air-water flows. 
+The AWCCT is signal processing technique for phase-detection probe signals in high-velocity air-water flows. 
 The code was developed by Matthias Kramer (UNSW Canberra, [ORCID](https://orcid.org/0000-0001-5673-2751)) and Daniel Valero (IHE Delft, [ORCID](http://orcid.org/0000-0002-7127-7547)). It includes the following features:
 
 - Novel technique for processing dual-tip phase-detection probe signals in air-water flows.
@@ -17,7 +17,7 @@ M. Kramer, D. Valero, H. Chanson and D. Bung (2019). Towards reliable turbulence
 1 Contents
 ----------
 
-The code was written in Matlab R2017a. The folder contains the listed files:
+The code was written in Matlab R2017a. The folder contains the Matlab source code files:
 - RunAWCCT.m: main code to run the AWCCT.
 - windows.m: segmentation of the signal into short time windows.
 - velocity.m: computation of pseudo-instantaneous velocities.
