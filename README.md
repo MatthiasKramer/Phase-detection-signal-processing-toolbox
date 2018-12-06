@@ -33,7 +33,7 @@ Important processing paramters of the AWCCT are:
 - **N<sub>P</sub>** (line 29): number of encompassed particles of the dispersed phase. For example, a window with 
 N<sub>P</sub> = 2 particles contains two water chords and two air chords, compare Fig. 1 in Kramer et al. (2019). A value between N<sub>P</sub>  = 2 and 5 was used for synthetic and real two-phase flow signals, respectively. 
 - **R<sub>xy,max</sub>** (line 30): threshold of the maximum cross-correlation coefficient. A value between R<sub>xy,max</sub> = 0.5 to 0.7 is recommended, as indicated in Matos et al. (2002, [DOI](https://doi.org/10.1061/40655(2002)58)) and André et al. (2003, [DOI](https://doi.org/10.1061/(ASCE)0733-9429(2005)131:5(423))). 
-- **SPRthres** (line 31): threshold of the secondary peak ratio, as defined in Kramer et al. (2019). A value of 0.6 is proposed, similar to Keane and Adrian (1990, [DOI](https://doi.org/10.1088/0957-0233/1/11/013)) and Hain and Kähler (2007, [DOI](https://doi.org/10.1007/s00348-007-0266-6)).
+- **SPR** (line 31): threshold of the secondary peak ratio, as defined in Kramer et al. (2019). A value of SPR = 0.6 is proposed, similar to Keane and Adrian (1990, [DOI](https://doi.org/10.1088/0957-0233/1/11/013)) and Hain and Kähler (2007, [DOI](https://doi.org/10.1007/s00348-007-0266-6)).
 
 3 Contact
 ----------
