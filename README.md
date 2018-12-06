@@ -25,6 +25,7 @@ Experiments in Fluids, 2019, 60:2
 1. Contents
 """""""""""
 
+
 The code was written in Matlab R2017a. The folder contains the listed files:
 - RunAWCCT.m: main code to run the Adaptive Window Cross-Correlation Technique.
 - windows.m: segmentation of the signal into short time windows.
@@ -40,7 +41,8 @@ The code was written in Matlab R2017a. The folder contains the listed files:
 - *.dat: phase-detection probe data, measured at the eighth step edge of a large-sized stepped spillway, see Kramer et al. (2019).
 
 2. Processing parameters
-"""""""""""""""""""""""""""""""
+""""""""""""""""""""""""
+
 Important processing paramters include:
 - Np (line 29): number of encompassed particles of the dispersed phase. For example, a window with 
 Np = 2 particles contains two water chords and two air chords, compare Fig. 1 in Kramer et al. (2019).
