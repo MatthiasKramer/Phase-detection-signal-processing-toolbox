@@ -39,5 +39,5 @@ Important processing paramters include:
 - Np (line 29): number of encompassed particles of the dispersed phase. For example, a window with 
 Np = 2 particles contains two water chords and two air chords, compare Fig. 1 in Kramer et al. (2019).
 - Rxymaxthres (line 30): threshold of the maximum cross-correlation coefficient. A value of 0.5 is recommended
-- SPRthres (line 31): threshold of the secondary peak ratio, as defined in Kramer et al. (2019). A value of 0.6 is recommended, similar to Keane and Adrian (1990, [DOI](https://doi.org/10.1088/0957-0233/1/11/013)) and Hain and Kähler (2007, [DOI](https://doi.org/10.1007/s00348-007-0266-6))
+- SPRthres (line 31): threshold of the secondary peak ratio, as defined in Kramer et al. (2019). A value of 0.6 is recommended, similar to Keane and Adrian (1990, [DOI](https://doi.org/10.1088/0957-0233/1/11/013)) and Hain and Kähler (2007, [DOI](https://doi.org/10.1007/s00348-007-0266-6)).
 
