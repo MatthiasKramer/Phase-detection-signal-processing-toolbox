@@ -10,12 +10,18 @@ The code was developed by Matthias Kramer (matthias_kramer@hotmail.com) and Dani
 
 
 If using this code, please cite
-%---------------------------------------------------------------------%
+
+%----------------------------------------------------------------------------------%
+
 M. Kramer, D. Valero, H. Chanson and D. Bung (2019)
+
 Towards reliable turbulence estimations with phase-detection probes:
+
 an adaptive window cross-correlation technique
+
 Experiments in Fluids, 2019, 60:2
-%---------------------------------------------------------------------%
+
+%----------------------------------------------------------------------------------%
 
 
 The code was developed in Matlab R2017a. The folder contains the following files:
