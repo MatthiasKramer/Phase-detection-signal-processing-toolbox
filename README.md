@@ -36,7 +36,7 @@ The code was written in Matlab R2017a. The folder contains the listed files:
 ------------------------
 
 Important processing paramters include:
-- N_p (line 29): number of encompassed particles of the dispersed phase. For example, a window with 
+- Np (line 29): number of encompassed particles of the dispersed phase. For example, a window with 
 Np = 2 particles contains two water chords and two air chords, compare Fig. 1 in Kramer et al. (2019).
 - Rxymaxthres (line 30): threshold of the maximum cross-correlation coefficient.
 - SPRthres (line 31): threshold of the secondary peak ratio, as defined in Kramer et al. (2019).
