@@ -38,7 +38,8 @@ N<sub>P</sub> = 2 particles contains two water chords and two air chords, compar
 
 3 Comment on measurement accuracy
 ----------------------------------
-Phase-detection probe measurements may overestimate the time-averaged velocity and underestimate the turbulence intensity, as shown in Table 1 (Kramer et al. 2019). 
+Phase-detection probe measurements may overestimate time-averaged velocities and underestimate turbulence intensities, as shown in Table 1 (Kramer et al. 2019). Possible reasons include:
+- Missalignment of the 
 
 4 How to run the code?
 ----------------------
