@@ -47,7 +47,7 @@ This topic is currently being investigated. It is anticipated that the measureme
 
 5 Contact
 ----------
-We are happy to receive **feedback**, **questions** and **recommendations** via Email:
+We are happy to receive **feedback**, **questions** and **suggestions** via Email:
 
 Matthias Kramer, The University of Queensland, Brisbane, Australia. Email: m.kramer@uq.edu.au, [ORCID](https://orcid.org/0000-0001-5673-2751)
 
