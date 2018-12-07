@@ -35,7 +35,7 @@ N<sub>P</sub> = 2 particles contains two water chords and two air chords, compar
 
 3 How to run the code?
 ----------------------
-Copy the source code and the *.dat files into the same folder and run "RunAWCCT.m". Instantaneous velocities are accesible through the Matlab workspace and time-averaged results will be saved to an Excel spreadsheet.
+Copy the source code and the *.dat files into the same folder and run "RunAWCCT.m". Instantaneous velocities are accessible through the Matlab workspace and time-averaged results will be saved to an Excel spreadsheet.
 
 4 Comment on measurement accuracy
 ----------------------------------
