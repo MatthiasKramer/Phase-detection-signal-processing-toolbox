@@ -7,13 +7,13 @@
 % matthias_kramer@hotmail.com
 % valero@fh-aachen.de
 
-%if using this code, please cite the following reference:
-%--------------------------------------------------------------------------------------------------------%
-%M. Kramer, D. Valero, H. Chanson and D. Bung (2019)
+%When using this code, please cite the following reference:
+%---------------------------------------------------------------------%
+%M. Kramer, D. Valero, H. Chanson and D. B. Bung (2019)
 %Towards reliable turbulence estimations with phase-detection probes:
 %an adaptive window cross-correlation technique
 %Experiments in Fluids, 2019, 60:2
-%--------------------------------------------------------------------------------------------------------%
+%---------------------------------------------------------------------%
 
 clear all
 close all
@@ -30,7 +30,7 @@ nParticles = 5; %Np as defined in Kramer et al. (2019)
 Rxymaxthres = 0.5; %threshold cross-correlation coefficient
 SPRthres = 0.6; %threshold SPR, as defined in Kramer et al. (2019)
  
-%SPRthres between 0.5 and 0.8, as indicated in
+%SPRthres between 0.5 and 0.8, as indicated by
 %---------------------------------------------------------------------%
 %R. D. Keane and R. J. Adrian (1990)
 %Optimization of particle image velocimeters. I. Double pulsed systems
@@ -42,7 +42,6 @@ SPRthres = 0.6; %threshold SPR, as defined in Kramer et al. (2019)
 %Fundamentals of multiframe particle image velocimetry (PIV)
 %Experiments in Fluids 42, pp. 575-587
 %---------------------------------------------------------------------%
-
 
 %Rxymaxthres between 0.5 and 0.7, as indicated in
 %---------------------------------------------------------------------%
@@ -60,7 +59,7 @@ SPRthres = 0.6; %threshold SPR, as defined in Kramer et al. (2019)
 %measurements & experimental methods ASCE, Estes Park, USA
 %---------------------------------------------------------------------%
 
-%% Data reading and sorting 
+%% Data reading and sorting (data-format sensitive)
 files = dir('*.dat');  
 nmeasurements = size(files,1);
 
@@ -80,7 +79,8 @@ end
 [y, idx] = sort([S1r{2,:}], 'ascend');
 S1r =  S1r(:,idx);
 S2r =  S2r(:,idx);
- 
+
+%---------------------------------------------------------------------%
 %% Preallocation
 C1 = zeros(1,nmeasurements); %void fraction tip1
 C2 = zeros(1,nmeasurements); %void fraction tip2
@@ -88,7 +88,7 @@ F1 = zeros(1,nmeasurements); %bubble count rate tip1
 F2 = zeros(1,nmeasurements); %bubble count rate tip2
 Tu = zeros(1,nmeasurements); %turbulence intensity
 U = zeros(1,nmeasurements); %interfacial velocity
- 
+%---------------------------------------------------------------------%
 %% Void fraction, bubble/droplet count rate and chord times
 for j=1:1:nmeasurements %Loop over measurements
  %Thresholding and calculation of void fractions
@@ -99,7 +99,7 @@ for j=1:1:nmeasurements %Loop over measurements
  [ChordW1{j},ChordA1{j},F1(j)] = chord(S1f{j},duration);
  [ChordW2{j},ChordA2{j},F2(j)] = chord(S2f{j},duration);  
 end 
- 
+%---------------------------------------------------------------------%
 %% Velocity and turbulence intensity estimations  
 for j=1:1:nmeasurements %loop over measurements    
   
@@ -114,11 +114,12 @@ for j=1:1:nmeasurements %loop over measurements
    nlags(i) = stop(i)-start(i); %lags correspond to time windows   
    S1=S1f{j}(start(i):stop(i)); %signals
    S2=S2f{j}(start(i):stop(i)); %signals      
-   [uinstloop(i),Rxymaxloop(i),SPRloop(i)] = velocity(0.5,nlags(i),deltaX,fsample,SPRthres,Rxymaxthres,S1,S2); %evaluation of pseudo-instantaneous velocities      
+   [uinstloop(i),Rxymaxloop(i),SPRloop(i)] = velocity(0.5,nlags(i), ...
+                                         deltaX,fsample,SPRthres,Rxymaxthres,S1,S2); %pseudo-instantaneous velocities      
   end %end loop subsegments 
  
  %data filtering 
- [uinstloop] = roc(uinstloop);
+ [uinstloop] = roc(uinstloop); % ROC filtering, R12 and SPR filtering implemented in previous loop.
  spikesloop = (sum(isnan(uinstloop))/length(uinstloop))*100;
  fprintf('Discarded data: %2.8f %%\n', spikesloop) 
 
