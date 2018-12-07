@@ -15,7 +15,7 @@ kustd = lambdau*ustd;
 
 i_rep = zeros(N, 1); % which are to be replaced (by NaN).
 for i = 1:N
-    if abs((u(i)-umed)/(kustd)) > 1.0
+    if abs((u(i)-umed)/kustd) > 1.0
         ufilt(i) = nan;
         i_rep(i) = 1;
     else
