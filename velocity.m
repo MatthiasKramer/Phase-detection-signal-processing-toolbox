@@ -2,11 +2,11 @@ function [Vx,Rxymax,SPR] = velocity(thresh,nlags,deltaX,fsample,SPRthres,Rxymaxt
 
  %checking if signals are all above or below threshold
 if max(S1)>thresh && min(S1)<thresh && max(S2)>thresh && min(S2)<thresh       
-    
+    % Signal cross-correlation
     [CrossCorrel,lags] = xcorr(S2-mean(S2),S1-mean(S1),nlags,'coeff');
-    tau = lags/fsample;
+    tau = lags/fsample; % time domain
     [pks,~,~,p] = findpeaks(CrossCorrel);
-    [~,I] = max(pks);
+    [~,I] = max(pks); % find peak locations
     Peaks = pks(p>0.3*p(I)); 
   
     if length(Peaks)==1
