@@ -40,7 +40,9 @@ Copy the source code and the *.dat files into the same folder and run "RunAWCCT.
 4 Comment on measurement accuracy
 ----------------------------------
 Phase-detection probe measurements may overestimate time-averaged velocities and underestimate turbulence intensities, as shown in Table 1 (Kramer et al. 2019). Possible reasons include:
-- Missalignment of the 
+-  Bubbles/droplets approach the probe at high and low velocities and a greater number of particles impact the tips during periods of high velocities
+- Probe tips are not aligned with flow streamlines
+- 
 
 5 Contact
 ----------
