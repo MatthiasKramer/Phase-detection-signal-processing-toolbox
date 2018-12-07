@@ -43,7 +43,7 @@ Phase-detection probe measurements may overestimate time-averaged velocities and
 - Probe tips are not aligned with flow streamlines.
 - A greater number of bubble/droplets impact the tips during periods of high velocities, leading to some velocity overestimation. 
 
-This topic is currently being investigated and 
+This topic is currently being investigated. Researchers need to be cautios in regions with relatively high velocity fluctuations. 
 
 5 Contact
 ----------
