@@ -53,7 +53,8 @@ We are happy to receive **feedback**, **questions** and **recommendations** in t
 
 6 References
 ------------
--Felder, S. and Chanson, H, (2015). Phase-detection probe measurements in high-velocity free-surface flows including a discussion of key
+- Cartellier, A. and Achard, J. (1991). Local phase detection probes in fluid/fluid two-phase flows. Review of Scientific Instruments 62(2), pages 279–303.
+- Felder, S. and Chanson, H, (2015). Phase-detection probe measurements in high-velocity free-surface flows including a discussion of key
 sampling parameters. Experimental and Thermal Fluid Science 61, pages 66–79.
 - Kramer, M., valero, D., Chanson, H. and Bung, D. B. (2019). Towards reliable turbulence estimations with phase-detection probes: an adaptive window cross-correlation technique, Experiments in Fluids.
 
