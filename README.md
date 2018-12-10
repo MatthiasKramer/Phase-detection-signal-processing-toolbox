@@ -51,10 +51,11 @@ We are happy to receive **feedback**, **questions** and **recommendations** in t
 - Matthias Kramer, The University of Queensland, Brisbane, Australia. Email: m.kramer@uq.edu.au, [ORCID](https://orcid.org/0000-0001-5673-2751)
 - Daniel Valero, Aachen University of Applied Sciences, Aachen, Germany. Email: valero@fh-aachen.de, [ORCID](http://orcid.org/0000-0002-7127-7547)
 
-6 References
+6 Selected References
 ------------
 - Herringe, R. A. and Davis, M. R. (1976). Structural development of gas–liquid mixture flows. Journal of Fluid Mechanics 73, pages 97–123.
 - Cartellier, A. and Achard, J. (1991). Local phase detection probes in fluid/fluid two-phase flows. Review of Scientific Instruments 62(2), pages 279–303.
+- Chanson, H. and Toombes, L. (2002). Air-water flows down stepped chutes: turbulence and flow structure observations. International Jorunal of Multiphase Flow 28(11), pages 1737–1761.
 - Felder, S. and Chanson, H, (2015). Phase-detection probe measurements in high-velocity free-surface flows including a discussion of key
 sampling parameters. Experimental and Thermal Fluid Science 61, pages 66–79.
 - Kramer, M., valero, D., Chanson, H. and Bung, D. B. (2019). Towards reliable turbulence estimations with phase-detection probes: an adaptive window cross-correlation technique, Experiments in Fluids.
