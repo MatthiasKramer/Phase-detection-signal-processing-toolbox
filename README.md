@@ -46,7 +46,7 @@ This topic is currently being investigated. It is anticipated that the measureme
 
 5 Contact
 ----------
-We are happy to receive **feedback**, **questions** and **recommendations** in the issue-section or via Email:
+For **feedback**, **questions** and **recommendations**, please use the issue-section or contact the authors via Email:
 
 - Matthias Kramer, The University of Queensland, Brisbane, Australia. Email: m.kramer@uq.edu.au, [ORCID](https://orcid.org/0000-0001-5673-2751)
 - Daniel Valero, Aachen University of Applied Sciences, Aachen, Germany. Email: valero@fh-aachen.de, [ORCID](http://orcid.org/0000-0002-7127-7547)
