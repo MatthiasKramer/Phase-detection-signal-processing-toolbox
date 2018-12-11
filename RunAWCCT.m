@@ -181,9 +181,9 @@ xlswrite('RESULTS',RESULTS2,'Trailing','A3');
 Uplot = U./max(U);
 gray = [0.6 0.6 0.6];
 
-
 figure(1)
 set(gcf,'Position', [400 400 400 400])
+
 subplot(2,2,1)
 scatter(C1,y,'s','MarkerEdgeColor',gray,'linewidth',0.7); hold on
 scatter(Uplot,y,'k','linewidth',0.7); hold on
@@ -209,6 +209,7 @@ set(h,'Position',rect);
 xlabel({'$N_{\mathcal{W}}\times$10$^{-5}$, $\overline{R_{12,\mathrm{max}}}$, $\overline{\mathrm{SPR}}$'},'Interpreter', 'latex','FontSize',9)
 ylabel('$y$ (mm)','Interpreter', 'latex','FontSize',10)
 box on
+
 subplot(2,2,3)
 scatter(F1,y,'b','linewidth',0.7); hold on
 grid;
@@ -226,7 +227,6 @@ box on
 
 %% PLOT - pseudo instantaneous velocities, PMF
 selectmeasurement = 10; %plotted measurement
-
 
 figure(2)
 set(gcf,'Position', [400 150 400 150])
