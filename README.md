@@ -8,7 +8,7 @@ This toolbox contains the **adaptive window cross-correlation technique (AWCCT)*
 - Estimation of pseudo-instantaneous interfacial velocities and turbulence intensities.
 - Reliable velocity estimates through implementation of filtering criteria.
 
-Overall, the uploaded source code allows computation of basic two-phase flow parameters, including void fraction (*C*), bubble/droplet count rate (*F*), chord times (*ch*), pseudo-instantaneous interfacial velocities (*u*) and turbulence intensities (*Tu*). If using the AWCCT for publishing research, please cite the following reference to credit the authors and to direct readers to the original research work:
+The uploaded source code allows computation of basic two-phase flow parameters, including void fraction (*C*), bubble/droplet count rate (*F*), chord times (*ch*), pseudo-instantaneous interfacial velocities (*u*) and turbulence intensities (*Tu*). If using the AWCCT for publishing research, please cite the following reference to credit the authors and to direct readers to the original research work:
 
 M. Kramer, D. Valero, H. Chanson and D. Bung (2019). Towards reliable turbulence estimations with phase-detection probes: an adaptive window cross-correlation technique, Experiments in Fluids, 60:2 ([DOI](https://doi.org/10.1007/s00348-018-2650-9))
 
