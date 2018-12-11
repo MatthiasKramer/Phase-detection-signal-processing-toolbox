@@ -230,6 +230,7 @@ selectmeasurement = 10; %plotted measurement
 
 figure(2)
 set(gcf,'Position', [400 150 400 150])
+
 subplot(1,2,1)
 plot(t{selectmeasurement},uinst{selectmeasurement},'k','linewidth',0.7); hold on
 grid on
