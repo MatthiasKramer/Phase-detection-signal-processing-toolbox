@@ -191,7 +191,6 @@ scatter(Tu,y,'*r','linewidth',0.7); hold on
 grid;
 xlabel('$C$, $U/U_\mathrm{max}$, $Tu$','Interpreter', 'latex','FontSize',10)
 ylabel('$y$ (mm)','Interpreter', 'latex','FontSize',10)
-xlim([0 2])
 h = legend({'$C$','$U$','$Tu_x$'},'Interpreter', 'latex','FontSize',8,'Location','north');
 rect = [0.185, 0.84, .15, .15];
 set(h,'Position',rect);
