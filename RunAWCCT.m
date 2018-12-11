@@ -118,7 +118,7 @@ for j=1:1:nmeasurements %loop over measurements
  %data filtering 
  [uinstloop] = roc(uinstloop); % ROC filtering, R12 and SPR filtering implemented in previous loop.
  spikesloop = (sum(isnan(uinstloop))/length(uinstloop))*100;
- fprintf('Discarded data: %2.8f %%\n', spikesloop) 
+ fprintf('Discarded data: %2.1f %%\n', spikesloop) 
 
  uinst{j} = uinstloop;
  spikes(j) = spikesloop;
