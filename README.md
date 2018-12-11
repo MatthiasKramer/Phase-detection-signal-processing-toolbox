@@ -53,7 +53,7 @@ We are happy to receive **feedback**, **questions** and **recommendations** in t
 
 6 Selected References
 ---------------------
-- Neal, L.G. and Bankoff, S. G. (1963). A high resolution resistivity probe for determination of local void properties in gas–liquid flow. AIChE J 9(4), pages 490–494.
+- Neal, L.G. and Bankoff, S. G. (1963). A high resolution resistivity probe for determination of local void properties in gas–liquid flow. American Institue of Chemical Engineers Journal 9(4), pages 490–494.
 - Herringe, R. A. and Davis, M. R. (1976). Structural development of gas–liquid mixture flows. Journal of Fluid Mechanics 73, pages 97–123.
 - Cartellier, A. and Achard, J. (1991). Local phase detection probes in fluid/fluid two-phase flows. Review of Scientific Instruments 62(2), pages 279–303.
 - Chanson, H. and Toombes, L. (2002). Air-water flows down stepped chutes: turbulence and flow structure observations. International Jorunal of Multiphase Flow 28(11), pages 1737–1761.
