@@ -32,8 +32,7 @@ The phase-detection signal processing toolbox is written in Matlab R2017a. This 
 Best practices for the application of the AWCC are
 - A combined cross-correlation based filtering filtering approach **R<sub>12,max</sub>**/(**SPR<sub>i</sub><sup>2</sup>** + 1) > **A** is proposed, where the parameter **A** was chosen as **A** = 0.4. Herein, **R<sub>12,i,max</sub>** is the maximum cross-correlation coefficient and **SPR** is the secondary peak ratio, as defined in Kramer et al. (2019).
 
-- **N<sub>P</sub>**: number of encompassed particles of the dispersed phase. For example, a window with 
-N<sub>P</sub> = 2 particles contains two water chords and two air chords, compare Fig. 1 in Kramer et al. (2019). A small window size can lead to the inclusion of noise (uncorrelated signals). A number of particles between 5 < **N<sub>P</sub>** < 15  is recommended using the above cross-correlation based filtering approach. The aim is to keep  **N<sub>P</sub>** small while avoiding non-physical velocity information. A sensitivity analysis should lead to  converging mean velocities.
+- Select the number of particles Np within a recommended range between 5 < **N<sub>P</sub>** < 15. The aim is to keep  **N<sub>P</sub>** small while avoiding non-physical velocity information. A sensitivity analysis should lead to converging mean velocities.
 
 - A suffcient number of valid pseudo-instantaneous velocity data must be recorded to reduce the uncertainty in the estimation of mean and turbulent properties. A low datayield directly implies the need for longer sampling durations. In such cases, it is recommended to increase the sampling duration until the moments of the velocity samples converge.
 
