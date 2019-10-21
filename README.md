@@ -8,7 +8,7 @@ This toolbox contains the **adaptive window cross-correlation (AWCC)** technique
 - Estimation of pseudo-instantaneous interfacial velocities and turbulence intensities.
 - Reliable velocity estimates through implementation of filtering criteria.
 
-The uploaded source code allows computation of basic two-phase flow parameters, including void fraction (*C*), particle count rate (*F*), chord times (*t_ch*), pseudo-instantaneous interfacial velocities (*u*) and turbulence intensities (*Tu*). If using the AWCC technique for publishing research, please cite the following reference to credit the authors and to direct readers to the original research work:
+The uploaded source code allows computation of basic two-phase flow parameters, including void fraction (*C*), particle count rate (*F*), chord times (*t<sub>ch</sub>*), pseudo-instantaneous interfacial velocities (*u*) and turbulence intensities (*Tu*). If using the AWCC technique for publishing research, please cite the following reference to credit the authors and to direct readers to the original research work:
 
 M. Kramer and D. Valero (2019). Phase-detection signal processing toolbox v1.0  [![DOI](https://zenodo.org/badge/160460025.svg)](https://zenodo.org/badge/latestdoi/160460025)
 
