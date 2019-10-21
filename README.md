@@ -1,7 +1,7 @@
 Phase-detection signal processing toolbox
 =========================================
 
-This toolbox contains the **adaptive window cross-correlation (AWCC)** technique for processing dual-tip phase-detection probe signals in high-velocity air-water flows, developed by Matthias Kramer (University of Queensland) and Daniel Valero (FH Aachen). The code is subject to further expansion and currently includes the following features:
+This toolbox contains the **adaptive window cross-correlation (AWCC)** technique for processing dual-tip phase-detection probe signals in high-velocity air-water flows, developed by Matthias Kramer (UNSW Canberra) and Daniel Valero (IHE Delft). The code is subject to further expansion and currently includes the following features:
 
 - Single-threshold filter to detect air- and water-phases.
 - Segmentation of the signal based on a small number of encompassed bubbles/droplets.
