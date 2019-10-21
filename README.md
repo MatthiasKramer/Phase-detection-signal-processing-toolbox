@@ -17,13 +17,13 @@ M. Kramer, D. Valero, H. Chanson and D. Bung (2019). Towards reliable turbulence
 1 Contents
 ----------
 The phase-detection signal processing toolbox is written in Matlab R2017a. This repository contains source code files and a representative spillway data set:
-- Batch.: main code to perform a batch mode
-- RunAWCCT.m: main code to run the AWCCT.
+- Batch.m: main code to perform batch-mode processing.
+- awcc.m: awcc technique.
 - chord.m: evaluation of chord times.
 - roc.m: robust outlier cutoff. Simplification of Goring and Nikora (2002, [DOI](https://doi.org/10.1061/(ASCE)0733-9429(2002)128:1(117))), as modified by Wahl (2003, [DOI](https://doi.org/10.1061/(ASCE)0733-9429(2003)129:6(484))). ROC only uses instantaneous velocity data (instead of gradients). Note that velocity series are sparse in time, thus gradients correspond to different dt. Further description in Valero (2018, [handle](https://orbi.uliege.be/handle/2268/229191)).
 - thres.m: single threshold technique and void fraction calculation.
 - velocity.m: computation of pseudo-instantaneous velocities. 
-- windows.m: segmentation of the signal into short time windows.
+- windows.m: segmentation of the signal into windows.
 - spillway-data: phase-detection probe data, measured at the eighth step edge of a large-sized stepped spillway, see Kramer et al. (2019).
 
 
@@ -37,7 +37,7 @@ N<sub>P</sub> = 2 particles contains two water chords and two air chords, compar
 
 3 How to run the code?
 ----------------------
-Copy the source code and the *.dat files into the same folder and run "RunAWCCT.m". Instantaneous velocities are accessible through the Matlab workspace and time-averaged results will be saved to an Excel spreadsheet.
+Copy the source code and the *.dat files into the same folder and run "Batch.m". Instantaneous velocities are accessible through the Matlab workspace.
 
 4 Comment on measurement accuracy
 ----------------------------------
