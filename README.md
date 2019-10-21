@@ -27,7 +27,7 @@ The phase-detection signal processing toolbox is written in Matlab R2017a. This 
 - spillway-data: phase-detection probe data, measured at the eighth step edge of a large-sized stepped spillway, see Kramer et al. (2019).
 
 
-2 Processing parameters
+2 Processing parameters and best practices
 ------------------------
 Important processing paramters of the AWCCT are:
 - **R<sub>12,max</sub>**: threshold of the maximum cross-correlation coefficient. 
@@ -37,7 +37,9 @@ Important processing paramters of the AWCCT are:
 - A combined filtering criteria **R<sub>12,max</sub>**/(**SPR<sub>i</sub><sup>2</sup>** + 1) > **A** is proposed, where the parameter **A** was chosen as **A** = 0.4. 
 
 - **N<sub>P</sub>**: number of encompassed particles of the dispersed phase. For example, a window with 
-N<sub>P</sub> = 2 particles contains two water chords and two air chords, compare Fig. 1 in Kramer et al. (2019). A small window size can lead to the inclusion of noise (uncorrelated signals). A number of particles between 5 < **N<sub>P</sub>** < 15  is recommended. The aim is to keep  **N<sub>P</sub>** small while avoiding non-physical velocity information. A sensitivity analysis should lead to  converging mean velocities.
+N<sub>P</sub> = 2 particles contains two water chords and two air chords, compare Fig. 1 in Kramer et al. (2019). A small window size can lead to the inclusion of noise (uncorrelated signals). A number of particles between 5 < **N<sub>P</sub>** < 15  is recommended using the above cross-correlation based filtering approach. The aim is to keep  **N<sub>P</sub>** small while avoiding non-physical velocity information. A sensitivity analysis should lead to  converging mean velocities.
+
+- A suffcient number of valid pseudo-instantaneous velocity data must be recorded to reduce the uncertainty in the estimation of mean and turbulent properties. A low datayield directly implies the need for longer sampling durations. In such cases, it is recommended to increase the sampling duration until the moments of the velocity samples converge.
 
 3 How to run the code?
 ----------------------
