@@ -30,10 +30,13 @@ The phase-detection signal processing toolbox is written in Matlab R2017a. This 
 2 Processing parameters
 ------------------------
 Important processing paramters of the AWCCT are:
+- **R<sub>12,max</sub>**: threshold of the maximum cross-correlation coefficient.
+- **SPR**: threshold of the secondary peak ratio, as defined in Kramer et al. (2019).
+- A combined filtering criteria **R<sub>12,max</sub>**/(**SPR<sub>i</sub>**)+1) 
+
+
 - **N<sub>P</sub>**: number of encompassed particles of the dispersed phase. For example, a window with 
 N<sub>P</sub> = 2 particles contains two water chords and two air chords, compare Fig. 1 in Kramer et al. (2019). A small window size can lead to the inclusion of noise (uncorrelated signals). It is recommended to increase the number of particles until the mean velocity converges. Note that this may lead to an underestimation of calculated turbulence intensities.
-- **R<sub>12,max</sub>**: threshold of the maximum cross-correlation coefficient. A value between R<sub>12,max</sub> = 0.5 to 0.7 is recommended, compare Matos et al. (2002, [DOI](https://doi.org/10.1061/40655(2002)58)) and André et al. (2003, [DOI](https://doi.org/10.1061/(ASCE)0733-9429(2005)131:5(423))). 
-- **SPR**: threshold of the secondary peak ratio, as defined in Kramer et al. (2019). In accordance with Keane and Adrian (1990, [DOI](https://doi.org/10.1088/0957-0233/1/11/013)) and Hain and Kähler (2007, [DOI](https://doi.org/10.1007/s00348-007-0266-6)), a value of SPR = 0.6 is proposed.
 
 3 How to run the code?
 ----------------------
