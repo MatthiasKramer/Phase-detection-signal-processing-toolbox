@@ -1,8 +1,6 @@
 Phase-detection signal processing toolbox
 =========================================
 
-**THE TOOLBOX IS CURRENTLY OFFLINE. FOR FURTHER INFORMATION PLEASE CONTACT US DIRECTLY**
-
 This toolbox contains the **adaptive window cross-correlation (AWCC)** technique for processing dual-tip phase-detection probe signals in high-velocity air-water flows, developed by Matthias Kramer (University of Queensland) and Daniel Valero (FH Aachen). The code is subject to further expansion and currently includes the following features:
 
 - Single-threshold filter to detect air- and water-phases.
@@ -10,7 +8,7 @@ This toolbox contains the **adaptive window cross-correlation (AWCC)** technique
 - Estimation of pseudo-instantaneous interfacial velocities and turbulence intensities.
 - Reliable velocity estimates through implementation of filtering criteria.
 
-The uploaded source code allows computation of basic two-phase flow parameters, including void fraction (*C*), bubble/droplet count rate (*F*), chord times (*ch*), pseudo-instantaneous interfacial velocities (*u*) and turbulence intensities (*Tu*). If using the AWCC technique for publishing research, please cite the following reference to credit the authors and to direct readers to the original research work:
+The uploaded source code allows computation of basic two-phase flow parameters, including void fraction (*C*), particle count rate (*F*), chord times (*t_ch*), pseudo-instantaneous interfacial velocities (*u*) and turbulence intensities (*Tu*). If using the AWCC technique for publishing research, please cite the following reference to credit the authors and to direct readers to the original research work:
 
 M. Kramer and D. Valero (2019). Phase-detection signal processing toolbox v1.0  [![DOI](https://zenodo.org/badge/160460025.svg)](https://zenodo.org/badge/latestdoi/160460025)
 
@@ -19,6 +17,7 @@ M. Kramer, D. Valero, H. Chanson and D. Bung (2019). Towards reliable turbulence
 1 Contents
 ----------
 The phase-detection signal processing toolbox is written in Matlab R2017a. This repository contains source code files and a representative spillway data set:
+- Batch.: main code to perform a batch mode
 - RunAWCCT.m: main code to run the AWCCT.
 - chord.m: evaluation of chord times.
 - roc.m: robust outlier cutoff. Simplification of Goring and Nikora (2002, [DOI](https://doi.org/10.1061/(ASCE)0733-9429(2002)128:1(117))), as modified by Wahl (2003, [DOI](https://doi.org/10.1061/(ASCE)0733-9429(2003)129:6(484))). ROC only uses instantaneous velocity data (instead of gradients). Note that velocity series are sparse in time, thus gradients correspond to different dt. Further description in Valero (2018, [handle](https://orbi.uliege.be/handle/2268/229191)).
