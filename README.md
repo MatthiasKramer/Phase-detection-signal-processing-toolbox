@@ -18,7 +18,7 @@ The uploaded source code allows computation of basic two-phase flow parameters, 
 
 1 Contents
 ----------
-The phase-detection signal processing toolbox is written in Matlab R2017a. This repository contains source code files and a representative spillway data set:
+The phase-detection signal processing toolbox is written in Matlab R2017a. This repository contains source code files and a representative spillway data set, recorded at the University of Queensland (UQ):
 - Batch.m: main code to perform batch-mode processing.
 - awcc.m: awcc technique.
 - chord.m: evaluation of chord times.
