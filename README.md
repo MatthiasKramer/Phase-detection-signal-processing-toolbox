@@ -53,7 +53,7 @@ This topic is currently being investigated. It is anticipated that the measureme
 5 Releases
 ----------
 - AWCC v1.0
-- AWCC v1.1
+- AWCC v1.1: implementation of a combined cross-correlation based filtering criteria and inclusion of batch-mode processing.
 
 6 Contact
 ----------
