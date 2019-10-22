@@ -8,13 +8,13 @@ This toolbox contains the **adaptive window cross-correlation (AWCC)** technique
 - Estimation of pseudo-instantaneous interfacial velocities and turbulence intensities.
 - Reliable velocity estimates through implementation of filtering criteria.
 
-The uploaded source code allows computation of basic two-phase flow parameters, including void fraction (*C*), particle count rate (*F*), chord times (*t<sub>ch</sub>*), pseudo-instantaneous interfacial velocities (*u*) and turbulence intensities (*Tu*). If using the AWCC technique for publishing research, please cite the following reference to credit the authors and to direct readers to the original research work:
+The uploaded source code allows computation of basic two-phase flow parameters, including void fraction (*C*), particle count rate (*F*), chord times (*t<sub>ch</sub>*), pseudo-instantaneous interfacial velocities (*u*) and turbulence intensities (*Tu*). If using the AWCC technique for publishing research, please cite the following references to credit the authors and to direct readers to the original research work:
 
-M. Kramer and D. Valero (2019). Phase-detection signal processing toolbox v1.1  [![DOI](https://zenodo.org/badge/160460025.svg)](https://zenodo.org/badge/latestdoi/160460025)
+- M. Kramer and D. Valero (2019). Phase-detection signal processing toolbox v1.1  [![DOI](https://zenodo.org/badge/160460025.svg)](https://zenodo.org/badge/latestdoi/160460025)
 
-M. Kramer, B. Hohermuth, D. Valero and S. Felder (2019). Best practices for velocity estimations in highly aerated flows with dual-tip phase-detection probes, International Journal of Multiphase Flow, <i> under review </i>
+- M. Kramer, B. Hohermuth, D. Valero and S. Felder (2019). Best practices for velocity estimations in highly aerated flows with dual-tip phase-detection probes, International Journal of Multiphase Flow, <i> under review </i>
 
-M. Kramer, D. Valero, H. Chanson and D. Bung (2019). Towards reliable turbulence estimations with phase-detection probes: an adaptive window cross-correlation technique, Experiments in Fluids, 60:2 ([DOI](https://doi.org/10.1007/s00348-018-2650-9))
+- M. Kramer, D. Valero, H. Chanson and D. Bung (2019). Towards reliable turbulence estimations with phase-detection probes: an adaptive window cross-correlation technique, Experiments in Fluids, 60:2 ([DOI](https://doi.org/10.1007/s00348-018-2650-9))
 
 1 Contents
 ----------
