@@ -48,14 +48,19 @@ Phase-detection probe measurements may overestimate time-averaged velocities and
 
 This topic is currently being investigated. It is anticipated that the measurement accuracy of a dual-tip probe decreases in two- or three-dimensional flow situations and in regions with high velocity fluctuations. 
 
-5 Contact
+5 Releases
+----------
+- AWCC v1.0
+- AWCC v1.1
+
+6 Contact
 ----------
 For **feedback**, **questions** and **recommendations**, please use the issue-section or contact the authors via Email:
 
 - Matthias Kramer, UNSW Canberra, School of Engineering and Information Technology (SEIT). Email: m.kramer@adfa.edu.au, [ORCID](https://orcid.org/0000-0001-5673-2751)
 - Daniel Valero, IHE Delft Institute for Water Education, Water Science and Engineering Department. Email: d.valero@un-ihe.org, [ORCID](http://orcid.org/0000-0002-7127-7547)
 
-6 Selected References
+7 Selected References
 ---------------------
 - Neal, L. G. and Bankoff, S. G. (1963). A high resolution resistivity probe for determination of local void properties in gas–liquid flow. American Institue of Chemical Engineers Journal 9(4), pages 490–494.
 - Herringe, R. A. and Davis, M. R. (1976). Structural development of gas–liquid mixture flows. Journal of Fluid Mechanics 73, pages 97–123.
