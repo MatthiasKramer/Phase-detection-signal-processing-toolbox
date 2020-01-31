@@ -13,9 +13,9 @@ The uploaded source code allows computation of basic two-phase flow parameters, 
 
 - M. Kramer and D. Valero (2019). Phase-detection signal processing toolbox v1.1  [![DOI](https://zenodo.org/badge/160460025.svg)](https://zenodo.org/badge/latestdoi/160460025)
 
-- M. Kramer, B. Hohermuth, D. Valero and S. Felder (2020). Best practices for velocity estimations in highly aerated flows with dual-tip phase-detection probes, International Journal of Multiphase Flow,  ([DOI](https://doi.org/10.1007/s00348-018-2650-9))
+- M. Kramer, B. Hohermuth, D. Valero and S. Felder (2020). Best practices for velocity estimations in highly aerated flows with dual-tip phase-detection probes, International Journal of Multiphase Flow, ([DOI](https://doi.org/10.1016/j.ijmultiphaseflow.2020.103228))
 
-- M. Kramer, D. Valero, H. Chanson and D. Bung (2019). Towards reliable turbulence estimations with phase-detection probes: an adaptive window cross-correlation technique, Experiments in Fluids, 60:2 ([DOI](https://doi.org/10.1016/j.ijmultiphaseflow.2020.103228))
+- M. Kramer, D. Valero, H. Chanson and D. Bung (2019). Towards reliable turbulence estimations with phase-detection probes: an adaptive window cross-correlation technique, Experiments in Fluids, 60:2 ([DOI](https://doi.org/10.1007/s00348-018-2650-9))
 
 1 Contents
 ----------
