@@ -55,6 +55,7 @@ This topic is currently being investigated. It is anticipated that the measureme
 ----------
 - AWCC v1.0
 - AWCC v1.1: implementation of a combined cross-correlation based filtering criteria and inclusion of batch-mode processing.
+- AWCC v1.2: velocity bias correction
 
 6 Contact
 ----------
