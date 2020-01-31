@@ -1,7 +1,7 @@
 Phase-detection signal processing toolbox
 =========================================
 
-This toolbox contains the **adaptive window cross-correlation (AWCC)** technique for processing dual-tip phase-detection probe signals in high-velocity air-water flows, developed by Matthias Kramer (UNSW Canberra) and Daniel Valero (IHE Delft), with contributions from Benjamin Hohermuth (ETH Zurich) and Stefan Felder (UNSW Sydney). The code is subject to further expansion and currently includes the following features:
+This toolbox contains the **adaptive window cross-correlation (AWCC)** technique for processing dual-tip phase-detection probe signals in high-velocity air-water flows, developed by Matthias Kramer (UNSW Canberra) and Daniel Valero (IHE Delft), with contributions from Benjamin Hohermuth (ETH Zurich) and Stefan Felder (UNSW Sydney). The code is subject to further expansion and currently includes the following features (version 1.2):
 
 - Single-threshold filter to detect air- and water-phases.
 - Segmentation of the signal based on a small number of encompassed bubbles/droplets.
@@ -11,7 +11,7 @@ This toolbox contains the **adaptive window cross-correlation (AWCC)** technique
 
 The uploaded source code allows computation of basic two-phase flow parameters, including void fraction (*C*), particle count rate (*F*), chord times (*t<sub>ch</sub>*), pseudo-instantaneous interfacial velocities (*u*) and turbulence intensities (*Tu*). If using the AWCC technique for publishing research, please cite the following references to credit the authors and to direct readers to the original research work:
 
-- M. Kramer and D. Valero (2019). Phase-detection signal processing toolbox v1.1  [![DOI](https://zenodo.org/badge/160460025.svg)](https://zenodo.org/badge/latestdoi/160460025)
+- M. Kramer and D. Valero (2019). Phase-detection signal processing toolbox v1.2  [![DOI](https://zenodo.org/badge/160460025.svg)](https://zenodo.org/badge/latestdoi/160460025)
 
 - M. Kramer, B. Hohermuth, D. Valero and S. Felder (2020). Best practices for velocity estimations in highly aerated flows with dual-tip phase-detection probes, International Journal of Multiphase Flow, ([DOI](https://doi.org/10.1016/j.ijmultiphaseflow.2020.103228))
 
