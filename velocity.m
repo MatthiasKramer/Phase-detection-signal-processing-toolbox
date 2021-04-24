@@ -1,4 +1,4 @@
-function [Vx,Rxymax,SPR] = velocity(nlags,deltaX,fsample,S1,S2)
+function [Vx] = velocity(nlags,deltaX,fsample,S1,S2)
 %Robust velocity estimation including filtering criteria SPRthres and Rxymaxthres
 
     
@@ -25,7 +25,7 @@ function [Vx,Rxymax,SPR] = velocity(nlags,deltaX,fsample,S1,S2)
     
     %filtering based on SPRthres and Rxymaxthres
     if  Rxymax> ((SPR^2+1)*0.4) % length(lagsRxymax)==1         
-        Vx = (deltaX/1000)/tau(lagsRxymax); % pseudo-instantaneous velocity (m/s)
+        Vx = (deltaX)/tau(lagsRxymax); % pseudo-instantaneous velocity (m/s)
     else
         Rxymax = NaN;
         Vx = NaN;   
