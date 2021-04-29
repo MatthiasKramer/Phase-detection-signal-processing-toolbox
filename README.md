@@ -9,7 +9,7 @@ This toolbox contains the **adaptive window cross-correlation (AWCC)** technique
 - Reliable velocity estimates through implementation of filtering criteria.
 - Velocity bias correction using window duration weighting.
 
-The uploaded source code allows computation of basic two-phase flow parameters, including void fraction (*C*), particle count rate (*F*), chord times (*t<sub>ch</sub>*), pseudo-instantaneous interfacial velocities (*u*) and turbulence intensities (*Tu*). If using the AWCC technique for publishing research, please cite the following references to credit the authors and to direct readers to the original research work:
+The uploaded source code allows computation of basic two-phase flow parameters, including void fraction (*C*), particle count rate (*F*), chord times (*t<sub>ch</sub>*), pseudo-instantaneous interfacial velocities (*u*) and turbulence intensities (*Tu*). When using the AWCC technique, please consider citing the following references to credit the authors and to direct readers to the original research works:
 
 - M. Kramer and D. Valero (2019). Phase-detection signal processing toolbox v1.2  [![DOI](https://zenodo.org/badge/160460025.svg)](https://zenodo.org/badge/latestdoi/160460025)
 
@@ -19,7 +19,7 @@ The uploaded source code allows computation of basic two-phase flow parameters, 
 
 1 Contents
 ----------
-The phase-detection signal processing toolbox is written in Matlab R2017a. This repository contains source code files and a representative spillway data set, recorded at the University of Queensland (UQ):
+The phase-detection signal processing toolbox is written in Matlab R2017a. This repository contains source code files and a representative spillway data set, the latter recorded at the University of Queensland (UQ):
 - Batch.m: main code to perform batch-mode processing.
 - awcc.m: awcc technique.
 - chord.m: evaluation of chord times.
@@ -43,13 +43,15 @@ Best practices for the application of the AWCC are
 ----------------------
 Copy the source code and the *.dat files into the same folder and run "Batch.m". Instantaneous velocities are accessible through the Matlab workspace.
 
+Please note that the read.m function considers that *.dat files: i) are binarised and ii) include the probe position. If your input files are different, this function should be modified.
+
 4 Comment on measurement accuracy
 ----------------------------------
 Phase-detection probe measurements may overestimate time-averaged velocities and underestimate turbulence intensities, as shown in     Corre and Ishii (2002, [DOI](https://doi.org/10.1016/S0029-5493(02)00130-9)) and Kramer et al. (2019). Possible reasons include:
 - Probe tips are not aligned with flow streamlines.
-- A greater number of bubbles/droplets impact the tips during periods of high velocities. 
+- A greater number of bubbles/droplets impact the tips during periods of high velocities. This issue is considered in the code modification after Kramer et al. (2021) [DOI](https://doi.org/10.1016/j.ijmultiphaseflow.2020.103228)
 
-This topic is currently being investigated. It is anticipated that the measurement accuracy of a dual-tip probe decreases in two- or three-dimensional flow situations and in regions with high velocity fluctuations. 
+This topic is currently being investigated. It is anticipated that the measurement accuracy of a dual-tip probe decreases in two- or three-dimensional flow situations and in regions with high velocity fluctuations. A thorough discussion on probes and analysis agorithms limitations in highly aerated flows can be found in Chanson (2020) [DOI](https://doi.org/10.1016/j.ijmultiphaseflow.2020.103330), and Kramer et al. (2021) [DOI](https://doi.org/10.1016/j.ijmultiphaseflow.2020.103475).
 
 5 Releases
 ----------
@@ -73,4 +75,7 @@ For **feedback**, **questions** and **recommendations**, please use the issue-se
 - Felder, S. and Chanson, H. (2015). Phase-detection probe measurements in high-velocity free-surface flows including a discussion of key
 sampling parameters. Experimental and Thermal Fluid Science 61, pages 66–79.
 - Kramer, M., Valero, D., Chanson, H. and Bung, D. B. (2019). Towards reliable turbulence estimations with phase-detection probes: an adaptive window cross-correlation technique, Experiments in Fluids, 60.
+- Kramer, M., Hohermuth, B., Valero, D. and Felder, D. (2021). Best practices for velocity estimations in highly aerated flows with dual-tip phase-detection probes. International Journal of Multiphase Flow, 126, 103228.
+- Chanson, H. (2020). On velocity estimations in highly aerated flows with dual-tip phase-detection probes - A commentary. International Journal of Multiphase Flow, 126, 103330.
+- Kramer, M., Hohermuth, B., Valero, D. and Felder, D. (2021). On velocity estimations in highly aerated flows with dual-tip phase-detection probes - closure. International Journal of Multiphase Flow, 134, 103475.
 
