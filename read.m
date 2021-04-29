@@ -1,11 +1,11 @@
 function [S1r,S2r,y] = read(j)
-    % READ Walks through the directory, in search of *.dat files, and returns the voltage raw signals and probe position.
-    %
-    %   This function reads the raw signals (binary files), ignores headers and builds two vectors (S1r, S2r) with the raw
-    %   signals. The function also searches for the probe position and returns it as a scalar (y).
-    %
-    %   Please, note that if your data files do not use binarisation, the fread function should be used differently.
-    %   Please, also note that if data acquisition files do not include probe position, this should be commented out and bypassed to avoid errors.
+% READ Walks through the directory, in search of *.dat files, and returns the voltage raw signals and probe position.
+%
+%   This function reads the raw signals (binary files), ignores headers and builds two vectors (S1r, S2r) with the raw
+%   signals. The function also searches for the probe position and returns it as a scalar (y).
+%
+%   Please, note that if your data files do not use binarisation, the fread function should be used differently.
+%   Please, also note that if data acquisition files do not include probe position, this should be commented out and bypassed to avoid errors.
     
     nChannels=2; % number of channels 
     files = dir('*.dat');  
