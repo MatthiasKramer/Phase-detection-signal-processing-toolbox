@@ -41,7 +41,7 @@ counterwater=1;
     end     
  end
   
- F=(size(ChordA,2)/(tmeasure)); % particle count rate (1/s)
- N=size(ChordA,2);
+ F=(size(ChordA,2)/(tmeasure)); % air particle count rate (1/s)
+ N=size(ChordA,2); % total count of air paticles.
  
 end
