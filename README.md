@@ -23,8 +23,8 @@ The phase-detection signal processing toolbox is written in Matlab R2017a. This 
 - Batch.m: main code to perform batch-mode processing.
 - awcc.m: awcc technique.
 - chord.m: evaluation of chord times.
-- roc.m: robust outlier cutoff. Simplification of Goring and Nikora (2002, [DOI](https://doi.org/10.1061/(ASCE)0733-9429(2002)128:1(117))), as modified by Wahl (2003, [DOI](https://doi.org/10.1061/(ASCE)0733-9429(2003)129:6(484))). ROC only uses instantaneous velocity data (instead of gradients). Note that velocity series are sparse in time, thus gradients correspond to different dt. Further description in Valero (2018, [handle](https://orbi.uliege.be/handle/2268/229191)).
-- thres.m: single threshold technique and void fraction calculation.
+- roc.m: robust outlier cutoff. Simplification of Goring and Nikora (2002, [DOI](https://doi.org/10.1061/(ASCE)0733-9429(2002)128:1(117))), as modified by Wahl (2003, [DOI](https://doi.org/10.1061/(ASCE)0733-9429(2003)129:6(484))). ROC only uses instantaneous velocity data (instead of gradients). Note that velocity series are sparse in time, thus gradients correspond to different values of dt (and could be biased). Further description can be found in Valero (2018, [handle](https://orbi.uliege.be/handle/2268/229191)) or Valero et al. (2020) [DOI](https://doi.org/10.1016/j.flowmeasinst.2020.101809).
+- thres.m: single threshold technique for the binarisation of the raw signals, and void fraction calculation. This is based on the mid value between the air and water modes. In conductivity probes, voltage values below threshold indicate air, and water the other way around.
 - velocity.m: computation of pseudo-instantaneous velocities. 
 - windows.m: segmentation of the signal into windows.
 - spillway-data: phase-detection probe data, measured at the eighth step edge of a large-sized stepped spillway, see Kramer et al. (2019).
