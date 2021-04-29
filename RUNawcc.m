@@ -32,7 +32,7 @@
 clearvars
 close all
 
-%Sampling parameters and phase-detection probe geometry
+%Sampling parameters and phase-detection probe geometry -- please, update to your acquisition settings!
 nmeasurements=25; %number of measurement points
 fsample=20000; %sample rate in (Hz)
 duration=45; %sampling duration in (s)
