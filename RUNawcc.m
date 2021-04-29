@@ -4,10 +4,10 @@
 %works with MATLAB 2017a 
 %contact: 
 %m.kramer@adfa.edu.au
-%davahue@gmail.com
+%d.valero@un-ihe.org
 %hohermuth@vaw.baug.ethz.ch
 
-%when using this code, please cite/refer to the following references:
+%When using this code, please cite/refer to the following references:
 %--------------------------------------------------------------------------%
 %B. Hohermuth, M. Kramer, S. Felder and D. Valero (2021)
 %Velocity bias in intrusive gas-liquid flow measurements
@@ -90,7 +90,7 @@ for j=1:1:nmeasurements
         [ucorr]=roc(ucorr);    
     end
    
-    spikesloop=(sum(isnan(ucorr))/length(ucorr))*100; %number of outliers
+    spikesloop=(sum(isnan(ucorr))/length(ucorr))*100; %number of discarded data. nan values can be produced in i) roc, or ii) correction, or iii) velocity.
     fprintf('Discarded data: %2.1f %%\n', spikesloop); 
   
     uinstmeas{j}=umeas; uinstcorr{j}=ucorr; 
