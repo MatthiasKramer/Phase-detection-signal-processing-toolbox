@@ -2,7 +2,9 @@ function [ufilt,spikes] = roc(u)
 % ROC This function implements the Robust outlier cutoff based on the maximum absolute deviation and the 
 % universal threshold. This is a simplification of the method of Goring and Nikora (2002), incorporating
 % the discussion of Wahl (2003). This filtering uses robust estimators to decide if a velocity measurement
-% is too far from the expected value. This is then replaced by a "nan".
+% is too far from the expected value. This is then replaced by a "nan". The rationale to use ROC, instead
+% of other more complicated filtering methods involving gradients is that here u estimations are not
+% equispaces, and thus their gradients are affected by the dt.
 % 
 % This function inputs:
 %   u: unfiltered velocity vector
