@@ -1,6 +1,20 @@
 function [modeair,modewater,threshold,C,Signalout] = thres(Signal,nbins)
-%Single threshold-technique for void fraction estimation and subsequent
-%calculations
+%   THRES This function implements a single threshold-technique for void fraction estimation 
+%   and subsequent velocimetry calculations.
+%
+%   This function receives:
+%     Signal: raw signal in the form of a vector, and
+%     nbins: number of bins, which is considered when obtaining the mode of air and water
+%         recordings.
+%
+%   This function returns:
+%     modeair: the voltage mode for air (low voltage values in conductivity 
+%        probes),
+%     modewater: the mode for water (high voltage values in conductivity probes),
+%        threshold: the threshold obtained (half value of the previous modes),
+%     C: the air concentration (percetange of low voltage values), and
+%     Signalout: the binarised concentration signal.
+%---------------------------------------------------------------------%
 
 [N,centers]  = hist(Signal,nbins);
 
