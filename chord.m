@@ -1,5 +1,16 @@
 function [ChordW,ChordA,F,N] = chord(Signal,tmeasure)
-%Calculation of chord lengths and bubble/droplet count rate
+% CHORD This function calculates chord times and bubble/droplet count rate
+%
+%   This function receives:
+%     Signal: binarised signal (0:water, 1:air) after thres.m.
+%     tmeasure: time sampled with the conductivity probe (e.g., 45 s).
+%
+%   This function returns:
+%     ChordW: chord times for water particles.
+%     ChordA: chord times for air particles.
+%     F: air particle frequency (counts per second).
+%     N: total counts of air particles.
+%
 
 %initializing parameters
 ChordW=NaN;
