@@ -33,21 +33,21 @@ clearvars
 close all
 
 % Sampling parameters and phase-detection probe geometry -- please, update to your acquisition settings!
-nmeasurements=25; %number of measurement points
-fsample=20000; %sample rate in (Hz)
-duration=45; %sampling duration in (s)
-deltaX=4.71/1000; %longitudinal distance between probe tips (m)
-dProbe=0.6/1000; %diameter of outer electrode (m) 
-gamma=45; %angle probe-wise direction and gravity
+nmeasurements=25; % number of measurement points
+fsample=20000; % sample rate in (Hz)
+duration=45; % sampling duration in (s)
+deltaX=4.71/1000; % longitudinal distance between probe tips (m)
+dProbe=0.6/1000; % diameter of outer electrode (m) 
+gamma=45; % angle probe-wise direction and gravity
 
 % AWCC parameters
-nParticles=10; %number of particles
+nParticles=10; % number of particles
 
 % Fluid properties
-rho_c=998; %density of water (kg/m^3)
-nu_c=1*10^-6; %kinematic viscosity of water (m^2/s)
-rho_d=1.12; %density of air (kg/m^3)
-sigma=0.073; %surface tension (N/m)
+rho_c=998; % density of water (kg/m^3)
+nu_c=1*10^-6; % kinematic viscosity of water (m^2/s)
+rho_d=1.12; % density of air (kg/m^3)
+sigma=0.073; % surface tension (N/m)
 
 % Parameters for particle-probe interaction bias correction
 b=1; %contact force parameter/surface tension multiplier
