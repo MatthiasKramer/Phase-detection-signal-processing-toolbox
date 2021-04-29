@@ -50,9 +50,9 @@ rho_d=1.12; % density of air (kg/m^3)
 sigma=0.073; % surface tension (N/m)
 
 % Parameters for particle-probe interaction bias correction
-b=1; %contact force parameter/surface tension multiplier
-cVM=0.5; %virtual mass coefficient (-)
-Cp=1; %pressure coefficient
+b=1; % contact force parameter/surface tension multiplier (i.e., 1 as per Vejrazka et al. 2010)
+cVM=0.5; % virtual mass coefficient (-)
+Cp=1; % pressure coefficient, bubble impact against needle
 
 
 % Preallocation
