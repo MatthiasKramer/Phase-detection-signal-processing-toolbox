@@ -1,5 +1,7 @@
 function [Ur] = rise_velocity(dp, rho_c, rho_d, sigma, nu_c, gamma)
-% solves Eq. 13 from the paper  
+% RISE_VELOCITY This function solves Eq. 13 from Hohermuth et al. (2021).  
+% 
+
 Ur=linspace(0.0001,0.0001,length(dp));
 
     for i=1:1:length(dp)
