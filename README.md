@@ -41,9 +41,11 @@ Best practices for the application of the AWCC are
 
 3 How to run the code?
 ----------------------
-Copy the source code and the *.dat files into the same folder and run "Batch.m". Instantaneous velocities are accessible through the Matlab workspace.
+Copy the source code and the *.dat files into the same folder and run "RUNawcc.m". Please, update your sampling properties.
 
-Please note that the read.m function considers that *.dat files: i) are binarised and ii) include the probe position. If your input files are different, this function should be modified.
+The instantaneous velocities are accessible through the Matlab workspace.
+
+Please note that the read.m function considers that *.dat files: i) are binarised and ii) include the probe position. If your input files are different, this function should be modified. For unsteady measurements, you may consider commenting out the roc method call (filtering for steady flows).
 
 4 Comment on measurement accuracy
 ----------------------------------
