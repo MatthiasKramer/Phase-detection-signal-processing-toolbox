@@ -12,7 +12,7 @@ function [ChordW,ChordA,F,N] = chord(Signal,tmeasure)
 %     N: total counts of air particles.
 %
 
-%initializing parameters
+% initializing parameters
 ChordW=NaN;
 ChordA=NaN;
 lengthair=1;
@@ -20,7 +20,7 @@ counterair=1;
 lengthwater=1;
 counterwater=1;
   
-%scanning Signal
+% scanning Signal
  for k=1:1:size(Signal,2)-1
     if Signal(k)==1 % Tip is in the air...
         if Signal(k+1)==1 % ... and will keep on being in the air. 
