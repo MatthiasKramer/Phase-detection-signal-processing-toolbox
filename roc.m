@@ -1,16 +1,16 @@
 function [ufilt,spikes] = roc(u)
-%Robust outlier cutoff based on the maximum absolute deviation and the 
-%universal threshold
-%23/04/2018
-%u: velocity vector
+% Robust outlier cutoff based on the maximum absolute deviation and the 
+% universal threshold
+% 
+% u: velocity vector
 
-k = 1.483; % based on a normal distro, see Rousseeuw and Croux (1993)
+k = 1.483; % based on a normal distribution, see Rousseeuw and Croux (1993)
 
-%robust estimation of the variance:
+% robust estimation of the variance:
 umed = nanmedian(u); % expected value estimated trhough MED
 ustd = k * nanmedian( abs(u - umed)); % ust estimated through MAD
 
-%universal threshold:
+% universal threshold:
 N = length(u);
 lambdau = sqrt(2*log(N));
 kustd = lambdau*ustd;
@@ -25,6 +25,6 @@ for i = 1:N
     end
 end
 
-spikes = sum(i_rep)/N*100; %number of spikes
+spikes = sum(i_rep)/N*100; % number of spikes
 end
 
