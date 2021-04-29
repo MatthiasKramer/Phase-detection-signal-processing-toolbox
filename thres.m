@@ -43,5 +43,6 @@ Signalout(Signal<threshold)=1; % Air
 
 %calculation of the void fraction
 C=sum(Signal<threshold)/length(Signal); 
+% C could be faster as: C = sum(Signalout)/len(Signalout);
 
 end
