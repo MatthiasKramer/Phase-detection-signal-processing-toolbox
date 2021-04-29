@@ -1,8 +1,9 @@
 function Cd = CD(dp,uc,ud,rho_c,rho_d,sigma,nu)
-% calculate drag coefficient after:
-% Tomiyama, A., Kataoka, I., Fukuda, T. & Sakaguchi, T. (1995).
-% Drag coefficients of bubbles: 2nd report, drag coefficient for a swarm of bubbles and its applicabilityto transient flow.
-% Transactions of the Japan Society of Mechanical Engineers Series B61, 2810?2817.
+    % CD This function calculates the drag coefficient after:
+    % Tomiyama, A., Kataoka, I., Fukuda, T. & Sakaguchi, T. (1995).
+    % Drag coefficients of bubbles: 2nd report, drag coefficient for a swarm of bubbles and its applicability to transient flow.
+    % Transactions of the Japan Society of Mechanical Engineers Series B61, 2810?2817.
+    
     if uc == ud
         Cd = 0;
     else
